@@ -16,8 +16,8 @@ public class Calendrier {
     /**
      * Affiche le calendrier pour une année et un mois définie via les paramètres ainsi que les différentes options pour celui-ci.
      *
-     * @param year >> Année affichée.
-     * @param month >> Mois affiché.
+     * @param year Année affichée.
+     * @param month Mois affiché.
      */
     public static void displayCalendar(int year, int month) {
         clearScreen();
@@ -29,8 +29,8 @@ public class Calendrier {
     /**
      * Affiche le calendrier pour une année et un mois définie via les paramètres.
      *
-     * @param year >> Année affichée.
-     * @param month >> Mois affiché.
+     * @param year Année affichée.
+     * @param month Mois affiché.
      */
     public static void displayMonth(int year, int month) {
         GregorianCalendar calendar = new GregorianCalendar(year, month, 1);
@@ -71,8 +71,8 @@ public class Calendrier {
     /**
      * Permet de modifier l'année et/ou le mois entrés en paramètres afin d'actualiser le calendrier.
      *
-     * @param year >> Année à modifier.
-     * @param month >> Mois à modifier.
+     * @param year Année à modifier.
+     * @param month Mois à modifier.
      */
     public static void updateCalendar(int year, int month) {
         Scanner console = new Scanner(System.in);
