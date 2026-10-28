@@ -16,11 +16,7 @@ Completed.
 
 ## Getting Started
 
-Compile and run with a JDK:
-
-```sh
-javac *.java && java <MainClass>
-```
+The project is a plain Java source tree; run instructions are not documented in this repository. Compile and run with a JDK.
 
 ## License
 
